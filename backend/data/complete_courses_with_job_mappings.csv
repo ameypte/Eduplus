@@ -1,0 +1,618 @@
+Course Name,Job Mapping 1,Job Mapping 2
+LINEAR ALGEBRA,Healthcare Data Analyst,Pharmaceutical Scientist
+CALCULUS,Systems Architect,Project Manager
+C PROGRAMMING,Materials Scientist,Process Engineer
+PYTHON,Patent Analyst,Mechanical Engineer
+APPLIED SCIENCE,Robotics Engineer,Automation Specialist
+ELECTRICAL ENGINEERING,Construction Manager,Urban Planner
+FRENCH,Process Engineer,Industrial Engineer
+JAPANESE,Cybersecurity Specialist,Network Engineer
+ENGINEERING DESIGN & DEVELOPMENT 1,Urban Planner,Energy Analyst
+PROFESSIONAL DEVELOPMENT-1,Lab Technician,Systems Architect
+ENGINEERING MECHANICS,Construction Manager,Urban Planner
+APPLIED PHYSICS,Lab Technician,Systems Architect
+BEHAVIORAL SCIENCES,Embedded Systems Engineer,Machine Learning Engineer
+SOFT SKILLS,Mechanical Engineer,Electrical Engineer
+ENGINEERING DRAWING,Systems Architect,Project Manager
+ENGINEERING DESIGN & DEVELOPMENT-2,Operations Manager,Quality Assurance Engineer
+CHESS,Chemical Engineer,Materials Scientist
+FLUTE,Database Administrator,Cybersecurity Specialist
+PHOTOGRAPHY,Industrial Engineer,Production Manager
+TREKKING,Network Engineer,Technical Writer
+HARDWARE & SOFTWARE WORKSHOP ,Systems Architect,Project Manager
+MACHINING WORKSHOP ,AI Specialist,Bioinformatics Scientist
+INDUCTION TRAINING,Quality Assurance Engineer,Compliance Officer
+ENVIRONMENTAL SCIENCE,Data Engineer,DevOps Engineer
+NETWORK AND INFORMATION SECURITY ,Bioinformatics Scientist,Biostatistician
+INTERNET OF THINGS ,Mathematics Tutor,Software Developer
+MOBILE APPLICATION DEVELOPMENT ,UI Developer,Full Stack Developer
+MECHANICAL OPERATIONS,Industrial Engineer,Production Manager
+CHEMICAL REACTION KINETICS,Civil Engineer,Construction Manager
+DATA COMPRESSION,Quality Assurance Engineer,Compliance Officer
+POWER ELECTRONICS ,AI Specialist,Bioinformatics Scientist
+DIGITAL INTEGRATED CIRCUIT DESIGN,Full Stack Developer,Digital Marketing Specialist
+ARTIFICIAL INTELLIGENCE ,Environmental Consultant,Healthcare Data Analyst
+OPERATING SYSTEMS,Web Developer,Data Engineer
+MICROPROCESSOR & MICROCONTROLLERS,Civil Engineer,Construction Manager
+SYSTEM PROGRAMMING,Systems Architect,Project Manager
+DATABASE MANAGEMENT SYSTEMS,Cloud Architect,AI Specialist
+DISTRIBUTED ALGORITHMS,Data Scientist,Quantitative Analyst
+FLUID FLOW OPERATIONS,Bioinformatics Scientist,Biostatistician
+PROCESS CALCULATIONS,Web Developer,Data Engineer
+CHEMICAL ENGINEERING THERMODYNAMICS,Machine Learning Engineer,Software Engineer
+ NETWORK THEORY,Industrial Engineer,Production Manager
+FLUID MECHANICS,Software Developer,Embedded Systems Engineer
+SIGNALS AND SYSTEMS ,Data Engineer,DevOps Engineer
+DIFFERENTIAL EQUATIONS,Construction Manager,Urban Planner
+DIGITAL ELECTRONICS,Industrial Engineer,Production Manager
+STRENGTH OF MACHINE ELEMENTS,Urban Planner,Energy Analyst
+PROBABILITY AND STATISTICS ,Marketing Manager,HR Manager
+THEORY OF MACHINES,Database Administrator,Cybersecurity Specialist
+APPLIED THERMODYNAMICS,Materials Scientist,Process Engineer
+MACHINE TOOLS & PROCESSES,Data Scientist,Quantitative Analyst
+METROLOGY & MECHANICAL MEASUREMENTS,Healthcare Data Analyst,Pharmaceutical Scientist
+MATERIAL SCIENCE,Cybersecurity Specialist,Network Engineer
+MECHANICS OF MATERIALS,Bioinformatics Scientist,Biostatistician
+MANUFACTURING PROCESSES,Automation Specialist,Web Developer
+MATHEMATICS FOR ENGINEERING APPLICATIONS-I,Business Analyst,Product Manager
+DATA STRUCTURES,Construction Manager,Urban Planner
+AUTOMATA THEORY,AI Specialist,Bioinformatics Scientist
+DISCRETE MATHEMATICS,Business Analyst,Product Manager
+ANALOG ELECTRONICS,Construction Manager,Urban Planner
+CONTROL SYSTEMS ,DevOps Engineer,Cloud Architect
+ELECTRONICS COMMUNICATION,AI Specialist,Bioinformatics Scientist
+DATA STRUCTURES & ALGORITHMS,Pharmaceutical Scientist,UX Designer
+DISCRETE STRUCTURE AND GRAPH THEORY,Embedded Systems Engineer,Machine Learning Engineer
+SIGNAL PROCESSING,Supply Chain Analyst,Operations Manager
+AUTOMATA THEORY ,Cloud Architect,AI Specialist
+CMOS MIXED SIGNAL DESIGN,Civil Engineer,Construction Manager
+COMPILER DESIGN,Legal Researcher,Patent Analyst
+HUMAN COMPUTER INTERACTION,Product Manager,Robotics Engineer
+DATA SCIENCE,Lab Technician,Systems Architect
+MACHINE LEARNING,Systems Architect,Project Manager
+DIGITAL CONTROL,Healthcare Data Analyst,Pharmaceutical Scientist
+ARTIFICIAL INTELLIGENCE,Mathematics Tutor,Software Developer
+WEB TECHNOLOGIES,Chemical Engineer,Materials Scientist
+PROJECT STAGE I,SEO Analyst,Marketing Manager
+MAJOR PROJECT 1,Systems Architect,Project Manager
+ADVANCED JAVA,Business Analyst,Product Manager
+ANALOG COMMUNICATION,Automation Specialist,Web Developer
+MINI PROJECT,Chemical Engineer,Materials Scientist
+SIGNAL PROCESSING AND COMMUNICATION LAB,Operations Manager,Quality Assurance Engineer
+LATEX,Network Engineer,Technical Writer
+SEMINAR,Operations Manager,Quality Assurance Engineer
+INDUSTRY INTERNSHIP,Business Analyst,Product Manager
+ENGINEERING LAB,Business Analyst,Product Manager
+GENERAL SEMINAR - II,Quality Assurance Engineer,Compliance Officer
+HEAT TRANSFER,Industrial Engineer,Production Manager
+METROLOGY AND MEASUREMENT TECHNIQUES,Materials Scientist,Process Engineer
+CHEMISTRY,Healthcare Data Analyst,Pharmaceutical Scientist
+MASS TRANSFER OPERATIONS,Legal Researcher,Patent Analyst
+CHEMICAL TECHNOLOGY,SEO Analyst,Marketing Manager
+SEPARATION TECHNIQUES,Lab Technician,Systems Architect
+CHEMICAL REACTION ENGINEERING,Lab Technician,Systems Architect
+COMPUTER PROGRAMMING,Lab Technician,Systems Architect
+APPLIED PROBABILITY AND STATISTICS,Civil Engineer,Construction Manager
+MATHEMATICAL TRANSFORMS AND APPLICATIONS,Machine Learning Engineer,Software Engineer
+THEORY OF COMPUTATION,Embedded Systems Engineer,Machine Learning Engineer
+APPLIED ELECTRONICS,Robotics Engineer,Automation Specialist
+OPERATING SYSTEM,Operations Manager,Quality Assurance Engineer
+COMPUTER NETWORK,Lab Technician,Systems Architect
+ADVANCED DATA STRUCTURES,SEO Analyst,Marketing Manager
+MOBILE COMPUTING,Digital Marketing Specialist,SEO Analyst
+INFORMATION RETRIEVAL,Data Engineer,DevOps Engineer
+SEMICONDUCTOR DEVICES AND CIRCUITS,Cybersecurity Specialist,Network Engineer
+LINEAR ALGEBRA AND STATISTICS,Urban Planner,Energy Analyst
+SIGNAL AND SYSTEMS,Embedded Systems Engineer,Machine Learning Engineer
+DATA STRUCTURE AND ALGORITHMS,Pharmaceutical Scientist,UX Designer
+NETWORKS AND LINES,Data Scientist,Quantitative Analyst
+CONTROL SYSTEMS,Process Engineer,Industrial Engineer
+MICROCONTROLLER & APPLICATIONS,Energy Analyst,Chemical Engineer
+DIGITAL SIGNAL PROCESSING,HR Manager,Supply Chain Analyst
+COMPUTER ARCHITECTURE AND OPERATING SYSTEM,Database Administrator,Cybersecurity Specialist
+CODING & DATA COMPRESSION,Energy Analyst,Chemical Engineer
+ELECTRONIC CIRCUIT DESIGN,Project Manager,Database Administrator
+WIRELESS COMMUNICATION,Bioinformatics Scientist,Biostatistician
+MICROWAVE ENGINEERING,Cloud Architect,AI Specialist
+ADVANCE ALGEBRA AND ANALYTICAL GEOMETRY,Web Developer,Data Engineer
+DIFFERENTIAL AND INTEGRAL CALCULUS,Biostatistician,Environmental Consultant
+MODERN PHYSICS,Systems Architect,Project Manager
+ELECTRICAL TECHNOLOGY,Robotics Engineer,Automation Specialist
+QUANTITATIVE APTITUDE-1,Civil Engineer,Construction Manager
+OPTIMIZATION AND SIMULATION,Digital Marketing Specialist,SEO Analyst
+MATERIAL MANAGEMENT AND LOGISTICS,Energy Analyst,Chemical Engineer
+KINEMATICS AND MECHANISMS,HR Manager,Supply Chain Analyst
+THERMAL ENGINEERING,Database Administrator,Cybersecurity Specialist
+FLUID MACHINERY AND FLUID POWER ENGINEERING,Product Manager,Robotics Engineer
+MECHANICAL DESIGN,Supply Chain Analyst,Operations Manager
+DESIGN OF MACHINE ELEMENTS,Operations Manager,Quality Assurance Engineer
+INTERNAL COMBUSTION ENGINE,Civil Engineer,Construction Manager
+PRODUCTION TECHNOLOGY,HR Manager,Supply Chain Analyst
+MECHATRONICS,Construction Manager,Urban Planner
+PRODUCTION METALLURGY,Pharmaceutical Scientist,UX Designer
+FINITE ELEMENT METHOD,Web Developer,Data Engineer
+OPTIMIZATION TECHNIQUES,Compliance Officer,Regulatory Affairs Specialist
+ELECTRONIC INSTRUMENTATION AND MEASUREMENT,Automation Specialist,Web Developer
+PHYSICAL AND INORGANIC CHEMISTRY,Embedded Systems Engineer,Machine Learning Engineer
+COSTING & COST CONTROL,Industrial Engineer,Production Manager
+ENGINEERING GRAPHICS,Healthcare Data Analyst,Pharmaceutical Scientist
+ELECTRICAL ENGINEERING FUNDAMENTALS,Quality Assurance Engineer,Compliance Officer
+PROCESS MEASUREMENTS,Automation Specialist,Web Developer
+MECHANICAL MEASUREMENTS,Mechanical Engineer,Electrical Engineer
+ANALOG CIRCUITS,Product Manager,Robotics Engineer
+COMPREHENSIVE VIVA VOCE,Urban Planner,Energy Analyst
+C#.NET,Compliance Officer,Regulatory Affairs Specialist
+ENGINEERING DESIGN & DEVELOPMENT -I,Chemical Engineer,Materials Scientist
+COMPUTER GRAPHICS,Digital Marketing Specialist,SEO Analyst
+PRINCIPLES OF PROGRAMMING LANGUAGES,Chemical Engineer,Materials Scientist
+TECHNICAL WRITING,HR Manager,Supply Chain Analyst
+ELECTRICAL AND ELECTRONICS ENGINEERING,Healthcare Data Analyst,Pharmaceutical Scientist
+FLUID-FLOW OPERATIONS,UX Designer,UI Developer
+ORGANIC CHEMISTRY,Project Manager,Database Administrator
+ELECTRICAL MACHINES,Research Scientist,Lab Technician
+ENGINEERING & MANAGERIAL ECONOMICS,HR Manager,Supply Chain Analyst
+PROBABILITY AND STATISTICS,Mathematics Tutor,Software Developer
+CONTROL SYSTEM COMPONENTS,Automation Specialist,Web Developer
+FLUID MACHINERY AND FLUID POWER,Software Developer,Embedded Systems Engineer
+DIFFERENTIAL EQUATIONS AND VECTOR ANALYSIS,UI Developer,Full Stack Developer
+DISSERTATION BY INTERNSHIP,Digital Marketing Specialist,SEO Analyst
+DISSERTATION BY RESEARCH,Product Manager,Robotics Engineer
+DISSERTATION STAGE - II,Network Engineer,Technical Writer
+NUMERICAL METHODS FOR CHEMICAL ENGINEERING,Civil Engineer,Construction Manager
+ADVANCES IN DATA STRUCTURES,HR Manager,Supply Chain Analyst
+COMPUTER NETWORKS,Electrical Engineer,Civil Engineer
+ENGINEERING DESIGN AND DEVELOPMENT 2,Operations Manager,Quality Assurance Engineer
+MACHINE DESIGN,Network Engineer,Technical Writer
+PARTIAL DIFFERENTIAL EQUATIONS AND NUMERICAL TECHNIQUES,Quality Assurance Engineer,Compliance Officer
+GENERAL PROFICIENCY 2,Supply Chain Analyst,Operations Manager
+PROFESSIONAL DEVELOPMENT 1,Financial Analyst,Mathematics Tutor
+THERMAL AND FLUID ENGINEERING,Urban Planner,Energy Analyst
+CASTING & JOINING TECHNOLOGIES,Energy Analyst,Chemical Engineer
+MANUFACTURING PROCESSES & SYSTEMS,Research Scientist,Lab Technician
+OPERATIONS MANAGEMENT,Product Manager,Robotics Engineer
+SUPPLY CHAIN MANAGEMENT,HR Manager,Supply Chain Analyst
+WORLD CLASS MANUFACTURING,Materials Scientist,Process Engineer
+SUMMER TRAINING,Legal Researcher,Patent Analyst
+ADDITIVE MANUFACTURING,Patent Analyst,Mechanical Engineer
+RF CIRCUIT DESIGN,Marketing Manager,HR Manager
+DIGITAL SYSTEM DESIGN,Bioinformatics Scientist,Biostatistician
+INTERNET OF THINGS,Robotics Engineer,Automation Specialist
+OPERATIONS SCHEDULING,SEO Analyst,Marketing Manager
+DISSERTATION BY INTERNSHIP ,Quality Assurance Engineer,Compliance Officer
+DISSERTATION BY RESEARCH ,Technical Writer,Business Analyst
+ENGINEERING DESIGN & INNOVATION 1,Mathematics Tutor,Software Developer
+DATA STRUCTURES-I,Business Analyst,Product Manager
+DIGITAL ELECTRONICS AND LOGIC DESIGN,Biostatistician,Environmental Consultant
+OBJECT ORIENTED PROGRAMMING,Network Engineer,Technical Writer
+COMPUTER ORGANIZATION,Cybersecurity Specialist,Network Engineer
+ENGINEERING DESIGN AND INNOVATION 1,Financial Analyst,Mathematics Tutor
+COMPUTER PROGRAMING,Network Engineer,Technical Writer
+ROBOT MECHANICS AND CONTROL,Construction Manager,Urban Planner
+GRAPHICS AND MECHANICAL WORKSHOP,Software Developer,Embedded Systems Engineer
+ENGINEERING DESIGN AND INNOVATION - I,Environmental Consultant,Healthcare Data Analyst
+ADVANCE COMPUTER PROGRAMMING,Network Engineer,Technical Writer
+GRAPHICS AND MECHATRONICS WORKSHOP,Cybersecurity Specialist,Network Engineer
+MECHATRONICS AND ROBOTICS,Software Developer,Embedded Systems Engineer
+ENGINEERING DESIGN AND INNOVATION - II,Energy Analyst,Chemical Engineer
+REAL-TIME OPERATING SYSTEMS,Software Developer,Embedded Systems Engineer
+ADVANCED POWER ELECTRONICS,Bioinformatics Scientist,Biostatistician
+ADVANCE WEB TECHNOLOGY,Data Engineer,DevOps Engineer
+IMAGE PROCESSING,Process Engineer,Industrial Engineer
+DCS AND COMMUNICATION PROTOCOLS,Energy Analyst,Chemical Engineer
+DATA ANALYTICS,Biostatistician,Environmental Consultant
+FINANCIAL MANAGEMENT & COSTING,AI Specialist,Bioinformatics Scientist
+MAJOR PROJECT 2,Quantitative Analyst,Financial Analyst
+ENGINEERING DESIGN & INNOVATION 2,Construction Manager,Urban Planner
+MACHINE DRAWING & COMPUTER GRAPHICS,Embedded Systems Engineer,Machine Learning Engineer
+DATA STRUCTURES-II,Lab Technician,Systems Architect
+DATA COMMUNICATION,Quality Assurance Engineer,Compliance Officer
+MICROPROCESSORS AND INTERFACING,Bioinformatics Scientist,Biostatistician
+INSTRUMENTATION AND PROCESS CONTROL,Marketing Manager,HR Manager
+SOFTWARE DEVELOPMENT PROJECT,Embedded Systems Engineer,Machine Learning Engineer
+MARKETING MANAGEMENT,Quality Assurance Engineer,Compliance Officer
+CYBER SECURITY,Chemical Engineer,Materials Scientist
+CLOUD COMPUTING,Quantitative Analyst,Financial Analyst
+RESEARCH INTERNSHIP,Software Engineer,Research Scientist
+DATA ANALYTICS FOR ENGINEERS,HR Manager,Supply Chain Analyst
+DESIGN FOR X AND PRODUCT LIFE CYCLE MANAGEMENT,AI Specialist,Bioinformatics Scientist
+MAJOR PROJECT,Mathematics Tutor,Software Developer
+WORK SYSTEMS & ERGONOMIC DESIGN,Digital Marketing Specialist,SEO Analyst
+FACILITIES & OPERATIONS MANAGEMENT,Operations Manager,Quality Assurance Engineer
+MANUFACTURING SYSTEMS & STRATEGIES,Cloud Architect,AI Specialist
+SOFTWARE APPLICATIONS IN INDUSTRIAL ENGINEERING,Environmental Consultant,Healthcare Data Analyst
+ENGINEERING DESIGN AND INNOVATION - III,Supply Chain Analyst,Operations Manager
+ENGINEERING DESIGN-I,Patent Analyst,Mechanical Engineer
+DIE & MOLD DESIGN,Energy Analyst,Chemical Engineer
+METAL CUTTING & MACHINE TOOL DESIGN,Quantitative Analyst,Financial Analyst
+SOFTWARE APPLICATIONS IN MANUFACTURING ENGINEERING,Lab Technician,Systems Architect
+MAJOR PROJECT ,Construction Manager,Urban Planner
+INTERNATIONAL INTERNSHIP,Embedded Systems Engineer,Machine Learning Engineer
+IMAGE PROCESSING AND CV,Industrial Engineer,Production Manager
+INDUSTRIAL ELECTRONICS,UI Developer,Full Stack Developer
+PLANT ENGINEERING AND PROJECT ECONOMICS,Quality Assurance Engineer,Compliance Officer
+TRANSPORT PHENOMENA,SEO Analyst,Marketing Manager
+PROJECT INTERNSHIP,Operations Manager,Quality Assurance Engineer
+PROCESS EQUIPMENT DESIGN,Software Developer,Embedded Systems Engineer
+MODELING AND SIMULATIONS,Industrial Engineer,Production Manager
+CAD/CAM/CAE,Construction Manager,Urban Planner
+COMPUTATIONAL FLUID DYNAMICS,Software Developer,Embedded Systems Engineer
+VIBRATION ANALYSIS,Mechanical Engineer,Electrical Engineer
+REFRIGERATION AND AIR CONDITIONING,Operations Manager,Quality Assurance Engineer
+HYDRAULIC MACHINES AND FLUID POWER,Network Engineer,Technical Writer
+DYNAMICS OF MACHINES,Healthcare Data Analyst,Pharmaceutical Scientist
+HYBRID AND ELECTRIC VEHICLES,Supply Chain Analyst,Operations Manager
+APPLIED THERMAL ENGINEERING,Process Engineer,Industrial Engineer
+METROLOGY AND QUALITY CONTROL,Robotics Engineer,Automation Specialist
+MODELING & SIMULATION OF MECHANICAL SYSTEMS,Compliance Officer,Regulatory Affairs Specialist
+INDUSTRIAL AUTOMATION,Embedded Systems Engineer,Machine Learning Engineer
+NATURAL LANGUAGE PROCESSING,Healthcare Data Analyst,Pharmaceutical Scientist
+ADVANCED COMMUNICATION ENGINEERING,HR Manager,Supply Chain Analyst
+DEEP LEARNING,Cybersecurity Specialist,Network Engineer
+CMOS RF INTEGRATED CIRCUITS,Software Developer,Embedded Systems Engineer
+PARALLEL COMPUTING,Project Manager,Database Administrator
+ENGINEERING DESIGN AND INNOVATION - V,Business Analyst,Product Manager
+EMBEDDED SYSTEM DESIGN,HR Manager,Supply Chain Analyst
+SOFTWARE DEVELOPMENT PROJECT - I,Embedded Systems Engineer,Machine Learning Engineer
+COMPUTER NETWORK TECHNOLOGY,AI Specialist,Bioinformatics Scientist
+SYSTEM SOFTWARE,Embedded Systems Engineer,Machine Learning Engineer
+DESIGN AND ANALYSIS OF ALGORITHMS,Automation Specialist,Web Developer
+AUTOMATED SOFTWARE ENGINEERING,Bioinformatics Scientist,Biostatistician
+COMPUTER INTEGRATED MANUFACTURING,Biostatistician,Environmental Consultant
+PARTICULATE TECHNOLOGY,Materials Scientist,Process Engineer
+PHYSICAL AND ORGANIC CHEMISTRY,SEO Analyst,Marketing Manager
+ENGINEERING DESIGN AND INNOVATION - IV,Civil Engineer,Construction Manager
+COMPUTER ARCHITECTURE & OPERATING SYSTEMS,Chemical Engineer,Materials Scientist
+DATA COMMUNICATION AND NETWORKS,UI Developer,Full Stack Developer
+SOFTWARE DEVELOPMENT PROJECT ,Software Engineer,Research Scientist
+ENGINEERING DESIGN AND INNOVATION ,Marketing Manager,HR Manager
+FLUID ENGINEERING,Quality Assurance Engineer,Compliance Officer
+THERMODYNAMICS,Regulatory Affairs Specialist,Legal Researcher
+ANALYSIS AND SIMULATION OF MACHINES AND MECHANISMS,Process Engineer,Industrial Engineer
+PRODUCT DESIGN & MODELING,UX Designer,UI Developer
+ENGINEERING DESIGN AND INNOVATION- IV,HR Manager,Supply Chain Analyst
+COMPUTER ARCHITECTURE AND OPERATING SYSTEMS,Financial Analyst,Mathematics Tutor
+COMMUNICATION ENGINEERING,Full Stack Developer,Digital Marketing Specialist
+SIGNAL AND IMAGE PROCESSING,Systems Architect,Project Manager
+DATA STRUCTURES ,Healthcare Data Analyst,Pharmaceutical Scientist
+DATA COMMUNICATION AND NETWORKING ,Machine Learning Engineer,Software Engineer
+ENGINEERING DESIGN AND INNOVATION - 1,Environmental Consultant,Healthcare Data Analyst
+ENGINEERING DESIGN - I,Materials Scientist,Process Engineer
+MECHANICAL AND SYSTEM ENGINEERING,Quality Assurance Engineer,Compliance Officer
+ROBOTICS,Cloud Architect,AI Specialist
+SOFTWARE DEVELOPMENT PROJECT - II,Energy Analyst,Chemical Engineer
+COMPUTER VISION,Automation Specialist,Web Developer
+DIGITAL DESIGN,Lab Technician,Systems Architect
+MECHANICAL SYSTEM DESIGN,Research Scientist,Lab Technician
+SOFTWARE DESIGN-I,Data Engineer,DevOps Engineer
+SOFTWARE DESIGN - I,HR Manager,Supply Chain Analyst
+SOFTWARE DEVELOPMENT PROJECT-I,Compliance Officer,Regulatory Affairs Specialist
+ENGINEERING DESIGN & INNOVATION ,Full Stack Developer,Digital Marketing Specialist
+ENGINEERING DESIGN AND INNOVATION-III,Materials Scientist,Process Engineer
+POWER PLANT ENGINEERING,SEO Analyst,Marketing Manager
+PROJECT MANAGEMENT,Network Engineer,Technical Writer
+BUSINESS PROPOSAL WRITING,Project Manager,Database Administrator
+COGNITIVE APTITUDE,Product Manager,Robotics Engineer
+HUMAN ENGINEERING,Robotics Engineer,Automation Specialist
+MOBILE APPLICATION DEVELOPMENT,Software Engineer,Research Scientist
+PROBLEM SOLVING AND PROGRAMMING,Operations Manager,Quality Assurance Engineer
+ROBOT: MECHANICS AND ELECTRONICS,UI Developer,Full Stack Developer
+CAPSTONE PROJECT 1,Biostatistician,Environmental Consultant
+GENERAL PROFICIENCY AND PROFESSIONAL DEVELOPMENT,Data Engineer,DevOps Engineer
+ENGINEERING MATHEMATICS,Quality Assurance Engineer,Compliance Officer
+SYSTEMS ENGINEERING,Legal Researcher,Patent Analyst
+LINEAR ALGEBRA AND APPLIED  STATISTICS,Patent Analyst,Mechanical Engineer
+SOFTWARE DEVELOPMENT PROJECT I,Business Analyst,Product Manager
+PROGRAMMING IN C,Automation Specialist,Web Developer
+DATABASE MANAGEMENT SYSTEM ,Compliance Officer,Regulatory Affairs Specialist
+WEB TECHNOLOGY,UI Developer,Full Stack Developer
+SOFTWARE ENGINEERING & PROJECT MANAGEMENT,Cybersecurity Specialist,Network Engineer
+DISCRETE STRUCTURES,Compliance Officer,Regulatory Affairs Specialist
+COMPUTER AIDED ENGINEERING,Environmental Consultant,Healthcare Data Analyst
+MECHANICAL DESIGN AND ANALYSIS,UX Designer,UI Developer
+POWER ELECTRONICS AND DRIVES,Mechanical Engineer,Electrical Engineer
+BUILDING AND PROCESS AUTOMATION,Urban Planner,Energy Analyst
+INSTRUMENTATION PROJECT ENGINEERING,UI Developer,Full Stack Developer
+BATCH PROCESS CONTROL,Materials Scientist,Process Engineer
+WEB TECHNOLOGY AND CLOUD COMPUTING,Data Scientist,Quantitative Analyst
+SOFTWARE DESIGN AND METHDOLOGIES,Legal Researcher,Patent Analyst
+ENGINEERING DESIGN AND INNOVATION-IV,DevOps Engineer,Cloud Architect
+DISTRIBUTED COMPUTING,Materials Scientist,Process Engineer
+LOGISTICS & SUPPLY CHAIN MANAGEMENT,Digital Marketing Specialist,SEO Analyst
+STATISTICAL QUALITY & RELIABILITY ENGINEERING,Chemical Engineer,Materials Scientist
+WORLD CLASS MANUFACTURING & INDUSTRY 4.0,Automation Specialist,Web Developer
+OPERATIONS MODELING & SIMULATION,Mathematics Tutor,Software Developer
+ENGINEERING DESIGN AND INNOVATION-VI,Mathematics Tutor,Software Developer
+MANUFACTURING AUTOMATION,Pharmaceutical Scientist,UX Designer
+ADVANCED MANUFACTURING PROCESSES,Web Developer,Data Engineer
+COMPUTER AIDED ENGINEERING ANALYSIS,Web Developer,Data Engineer
+MANUFACTURING TECHNOLOGY,Embedded Systems Engineer,Machine Learning Engineer
+KINEMATICS & THERMO-FLUID MACHINES,Research Scientist,Lab Technician
+ENGINEERING DESIGN AND INNOVATION - VI,Biostatistician,Environmental Consultant
+SOFTWARE DEVELOPMENT PROJECT-II,SEO Analyst,Marketing Manager
+PROCESS ENGINEERING & TECHNOLOGY MANAGEMENT,Urban Planner,Energy Analyst
+MECHATRONICS & INDUSTRIAL ROBOTICS,Operations Manager,Quality Assurance Engineer
+ALGORITHMS AND COMPLEXITY,Operations Manager,Quality Assurance Engineer
+ADVANCES IN MACHINE LEARNING,Embedded Systems Engineer,Machine Learning Engineer
+SOFTWARE DEVELOPMENT PROJECT II,Healthcare Data Analyst,Pharmaceutical Scientist
+DATA STRUCTURES USING PYTHON,UX Designer,UI Developer
+CAPSTONE PROJECT 2,Operations Manager,Quality Assurance Engineer
+C++ AND CORE JAVA PROGRAMMING,Patent Analyst,Mechanical Engineer
+COMPUTER ARCHITECTURE,Bioinformatics Scientist,Biostatistician
+ADVANCED DBMS,Lab Technician,Systems Architect
+QUANTITATIVE TECHNIQUES,Civil Engineer,Construction Manager
+DESIGN AND INNOVATION,Industrial Engineer,Production Manager
+ADVANCED MEASUREMENTS AND DATA ANALYSIS,Materials Scientist,Process Engineer
+ADVANCED ANALYSIS AND SYNTHESIS OF MECHANISMS,Civil Engineer,Construction Manager
+ADVANCED STRESS ANALYSIS,Cloud Architect,AI Specialist
+VIBRATION AND NOISE CONTROL,Operations Manager,Quality Assurance Engineer
+3D PRINTING,Technical Writer,Business Analyst
+SOLID MODELING AND COMPUTATIONAL ANALYSIS,Mathematics Tutor,Software Developer
+COMPUTER ORGANIZATION AND ARCHITECTURE,Software Developer,Embedded Systems Engineer
+DIGITAL SYSTEMS,SEO Analyst,Marketing Manager
+SOFTWARE ENGINEERING,Environmental Consultant,Healthcare Data Analyst
+DATABASE MANAGEMENT SYSTEM,Marketing Manager,HR Manager
+DISCRETE STRUCTURE AND AUTOMATA THEORY,Lab Technician,Systems Architect
+DATABASE MANANGEMENT AND DATA MINING,Quantitative Analyst,Financial Analyst
+CHEMICAL PROCESS TECHNOLOGY,Database Administrator,Cybersecurity Specialist
+ADVANCED JAVA PROGRAMMING,Full Stack Developer,Digital Marketing Specialist
+COMPUTER NETWORKS AND SECURITY,Operations Manager,Quality Assurance Engineer
+INDUSTRY 4.0,Financial Analyst,Mathematics Tutor
+ELECTRIC VEHICLES,Compliance Officer,Regulatory Affairs Specialist
+MATERIALS AND PROCESS ENGINEERING,Full Stack Developer,Digital Marketing Specialist
+DATABASE MANAGEMENT SYSTEM AND DATA MINING,UI Developer,Full Stack Developer
+ADVANCED ROBOTICS & DIGITAL MANUFACTURING,Construction Manager,Urban Planner
+METROLOGY & QUALITY MANAGEMENT,Electrical Engineer,Civil Engineer
+PROCESS INSTRUMENTATION,Cloud Architect,AI Specialist
+MEASUREMENT SYSTEMS,Business Analyst,Product Manager
+CONTROL THEORY,Patent Analyst,Mechanical Engineer
+ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING,Mathematics Tutor,Software Developer
+SOFTWARE DEVELOPMENT PROJECT - III,Marketing Manager,HR Manager
+DESIGN AND ANALYSIS OF ALGORITHM,Data Engineer,DevOps Engineer
+ENGINEERING DESIGN AND INNOVATION-V,Technical Writer,Business Analyst
+SOFTWARE MODELING AND DESIGN,Network Engineer,Technical Writer
+ENGINEERING APPLICATIONS OF DATA SCIENCE,Business Analyst,Product Manager
+HYBRID VEHICLES,Lab Technician,Systems Architect
+MACHINE INTELLIGENCE,Process Engineer,Industrial Engineer
+BIOPROCESS ENGINEERING,Data Engineer,DevOps Engineer
+NANOSCIENCE AND NANOTECHNOLOGY,Mathematics Tutor,Software Developer
+DESIGN THINKING 1,Data Scientist,Quantitative Analyst
+YOGA,Cloud Architect,AI Specialist
+VB.NET,HR Manager,Supply Chain Analyst
+STRUTS FRAMEWORK,Quality Assurance Engineer,Compliance Officer
+STRENGTH OF MATERIALS,Machine Learning Engineer,Software Engineer
+STATISTICAL METHODS & RESEARCH METHODOLOGY,Lab Technician,Systems Architect
+SOFTWARE TESTING AND QUALITY ASSURANCE,Financial Analyst,Mathematics Tutor
+SOFTWARE PROJECT MANAGEMENT,Supply Chain Analyst,Operations Manager
+SOFTWARE DESIGN  AND  ARCHITECTURE,Pharmaceutical Scientist,UX Designer
+QUANTITATIVE APTITUDE-2,Lab Technician,Systems Architect
+Pspice based circuit simulation,Network Engineer,Technical Writer
+PROJECT STAGE III,Mathematics Tutor,Software Developer
+OPERATION RESEARCH,Cloud Architect,AI Specialist
+OPERATING SYSTEMS & COMPUTER NETWORKS,Regulatory Affairs Specialist,Legal Researcher
+OBJECT ORIENTED DESIGN AND PROGRAMMING,Mathematics Tutor,Software Developer
+NETWORK SECURITY,Quality Assurance Engineer,Compliance Officer
+NANOTECHNOLOGY,Cloud Architect,AI Specialist
+MICROPROCESSOR AND INTERFACING,UX Designer,UI Developer
+MEASUREMENT & QUALITY CONTROL,Quality Assurance Engineer,Compliance Officer
+MATHEMATICS FOR ENGINEERING APPLICATIONS,Biostatistician,Environmental Consultant
+MANUFACTURING TECHNIQUES,Supply Chain Analyst,Operations Manager
+MACHINE TOOLS AND PROCESSES,Data Scientist,Quantitative Analyst
+MACHINE DRAWING AND GDT,Full Stack Developer,Digital Marketing Specialist
+MACHINE DRAWING,Healthcare Data Analyst,Pharmaceutical Scientist
+LAB VIEW PROGRAMMING,Full Stack Developer,Digital Marketing Specialist
+JAVA PROGRAMMING,Project Manager,Database Administrator
+INTRODUCTION TO LINUX,Construction Manager,Urban Planner
+INDUSTRIAL FLUID POWER,Industrial Engineer,Production Manager
+GREEN CHEMISTRY,DevOps Engineer,Cloud Architect
+GEOMETRIC MODELLING,Quality Assurance Engineer,Compliance Officer
+DESIGN OF MECHANICAL SYSTEMS,Cybersecurity Specialist,Network Engineer
+DATA WAREHOUSING AND DATA MINING,Network Engineer,Technical Writer
+DATA ACQUISITION SYSTEMS,Data Scientist,Quantitative Analyst
+CYBER SECURITY AND FORENSIC TOOLS,AI Specialist,Bioinformatics Scientist
+COST AND ACCOUNTING,Data Engineer,DevOps Engineer
+COMPUTER ORIENTED NUMERICAL METHODS,Marketing Manager,HR Manager
+COMPUTATIONAL METHODS IN MECHANICAL ENGINEERING,Environmental Consultant,Healthcare Data Analyst
+CHEMICAL ENGINEERING MATHEMATICS,Database Administrator,Cybersecurity Specialist
+BUSINESS COMMUNICATION THROUGH EFFECTIVE PRESENTATION,Mathematics Tutor,Software Developer
+APPLIED ELECTROMECHANICS FOR ROBOTICS,Systems Architect,Project Manager
+ANALYTICAL CHEMISTRY,SEO Analyst,Marketing Manager
+ANALYSIS OF MACHINE ELEMENTS,Research Scientist,Lab Technician
+AEROBICS,Machine Learning Engineer,Software Engineer
+ADVANCED PROJECT MANAGEMENT,Machine Learning Engineer,Software Engineer
+MATERIAL SCIENCE AND METALLURGY,Environmental Consultant,Healthcare Data Analyst
+BIOENGINEERING,Healthcare Data Analyst,Pharmaceutical Scientist
+PROJECT STAGE  II,Chemical Engineer,Materials Scientist
+COMPUTER GRAPHICS AND MULTIMEDIA,SEO Analyst,Marketing Manager
+HIGH PERFORMANCE NETWORKS,HR Manager,Supply Chain Analyst
+ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING PROJECT,Automation Specialist,Web Developer
+INTERNET OF THINGS PROJECT,Product Manager,Robotics Engineer
+MACHINE LEARNING PROJECT,Technical Writer,Business Analyst
+CYBER SECURITY PROJECT,DevOps Engineer,Cloud Architect
+PROJECT WORK,Healthcare Data Analyst,Pharmaceutical Scientist
+SOFTWARE DEVELOPMENT PROJECT - IV,Embedded Systems Engineer,Machine Learning Engineer
+PROJECT MANAGEMENT AND ENTREPRENEURSHIP DEVELOPMENT,Civil Engineer,Construction Manager
+ROBOTICS & AUTOMATION PROJECT,Quantitative Analyst,Financial Analyst
+ADDITIVE MANUFACTURING PROJECT,Business Analyst,Product Manager
+FORMING TECHNOLOGIES & TOOL DESIGN,Operations Manager,Quality Assurance Engineer
+ENGINEERING APPLICATIONS OF DATA SCIENCE PROJECT,SEO Analyst,Marketing Manager
+MACHINE LEARNING AND DEEP LEARNING,Industrial Engineer,Production Manager
+PROJECT BASED ON HONOUR COURSE(AI),DevOps Engineer,Cloud Architect
+ADVANCED DATA STRUCTURE,Data Engineer,DevOps Engineer
+ENGINEERING DESIGN AND DEVELOPMENT 1,HR Manager,Supply Chain Analyst
+COMMUNICATION FOUNDATIONS,UX Designer,UI Developer
+INTERPERSONAL COMMUNICATION,Digital Marketing Specialist,SEO Analyst
+COMPUTER SCIENCE PRINCIPLES: DIGITAL INFORMATION,Product Manager,Robotics Engineer
+DEVELOPING YOUR EMOTIONAL INTELLIGENCE,Embedded Systems Engineer,Machine Learning Engineer
+COMMUNICATING WITH CONFIDENCE,Data Engineer,DevOps Engineer
+THINKING CREATIVELY,Financial Analyst,Mathematics Tutor
+PREPARING FOR SUCCESSFUL COMMUNICATION,Process Engineer,Industrial Engineer
+CRITICAL THINKING,Chemical Engineer,Materials Scientist
+WRITING A PROPOSAL,Legal Researcher,Patent Analyst
+LEARNING DATA ANALYTICS,Supply Chain Analyst,Operations Manager
+PROBLEM SOLVING TECHNIQUES,Materials Scientist,Process Engineer
+DIGITAL MEDIA FOUNDATIONS,Process Engineer,Industrial Engineer
+CYBERSECURITY AT WORK,Mathematics Tutor,Software Developer
+DESIGN THINKING - DATA INTELLIGENCE,Data Engineer,DevOps Engineer
+DISCOVERING YOUR STRENGTHS,Quality Assurance Engineer,Compliance Officer
+"DATA MANAGEMENT, PROTECTION AND GOVERNANCE",DevOps Engineer,Cloud Architect
+ENTERPRISE RESOURCE PLANNING SYSTEMS,Civil Engineer,Construction Manager
+SERVICES MANAGEMENT,UI Developer,Full Stack Developer
+CAPSTONE PROJECT,Software Engineer,Research Scientist
+CAPSTONE PROJECT-INTERNATIONAL,Database Administrator,Cybersecurity Specialist
+DESIGN THINKING 2,Product Manager,Robotics Engineer
+INDIAN DEMOCRACY AND CONSTITUTION,Full Stack Developer,Digital Marketing Specialist
+ENGINEERING DESIGN AND INNOVATION 2,Compliance Officer,Regulatory Affairs Specialist
+INDUSTRIAL TRIBOLOGY,Operations Manager,Quality Assurance Engineer
+GENETIC ALGORITHMS,Legal Researcher,Patent Analyst
+DESIGN THINKING - 3,Research Scientist,Lab Technician
+CHEMICAL PROCESSES,Bioinformatics Scientist,Biostatistician
+DESIGN THINKING - 1,Robotics Engineer,Automation Specialist
+ENGINEERING DESIGN & INNOVATION - V,Cloud Architect,AI Specialist
+Operating System,Database Administrator,Cybersecurity Specialist
+Computer Networks,Software Developer,Embedded Systems Engineer
+Artificial Intelligence ,Automation Specialist,Web Developer
+Statistical Inference,Process Engineer,Industrial Engineer
+Machine Learning,Quality Assurance Engineer,Compliance Officer
+DESIGN THINKING,Product Manager,Robotics Engineer
+CASTING AND JOINING TECHNOLOGIES,Project Manager,Database Administrator
+Magic XPA/XPI,Civil Engineer,Construction Manager
+Neural Networks,Regulatory Affairs Specialist,Legal Researcher
+HUMAN FACTORS ENGINEERING,Network Engineer,Technical Writer
+From Campus to Corporate,Materials Scientist,Process Engineer
+MATHEMATICS AND STATISTICS,Quantitative Analyst,Financial Analyst
+PRODUCT DESIGN AND DEVELOPMENT,Software Engineer,Research Scientist
+GENERAL PROFICIENCY,Patent Analyst,Mechanical Engineer
+PROFESSIONAL DEVELOPMENT,Project Manager,Database Administrator
+DESIGN THINKING - 4,Patent Analyst,Mechanical Engineer
+DESIGN THINKING - 2,Compliance Officer,Regulatory Affairs Specialist
+ENGINEERING DESIGN AND INNOVATION - 2,DevOps Engineer,Cloud Architect
+FORMING TECHNOLOGIES AND TOOL DESIGN,Energy Analyst,Chemical Engineer
+ Cloud Computing,Marketing Manager,HR Manager
+Deep learning,Compliance Officer,Regulatory Affairs Specialist
+Complexity Algorithms,Environmental Consultant,Healthcare Data Analyst
+Software Design and Methodologies,Regulatory Affairs Specialist,Legal Researcher
+Design Thinking,Environmental Consultant,Healthcare Data Analyst
+Industry Internship,SEO Analyst,Marketing Manager
+BLOCKCHAIN TECHNOLOGY,Robotics Engineer,Automation Specialist
+PROBABILITY AND CALCULUS,Energy Analyst,Chemical Engineer
+SIGNALS AND SYSTEMS,Business Analyst,Product Manager
+NETWORK THEORY,UX Designer,UI Developer
+DESIGN THINKING - 5,Digital Marketing Specialist,SEO Analyst
+ENGINEERING DESIGN AND INNOVATION - 3,Chemical Engineer,Materials Scientist
+DESIGN THINKING - 6,Quality Assurance Engineer,Compliance Officer
+ENGINEERING DESIGN AND INNOVATION - 4,Healthcare Data Analyst,Pharmaceutical Scientist
+SOFTWARE DESIGN AND MODELING,Lab Technician,Systems Architect
+MICROPROCESSOR AND MICROCONTROLLER,Quantitative Analyst,Financial Analyst
+COMPUTER GRAPHICS AND VIRTUAL REALITY,Database Administrator,Cybersecurity Specialist
+DIGITAL ELECTRONICS AND MICROPROCESSOR,Civil Engineer,Construction Manager
+SENSORS AND TRANSDUCERS,Civil Engineer,Construction Manager
+COMPUTER NETWORK SECURITY,Energy Analyst,Chemical Engineer
+INDUSTRIAL ELECTRONICS-II,Automation Specialist,Web Developer
+MACHINE INTELLIGENCE-II,Financial Analyst,Mathematics Tutor
+CLOUD COMPUTING-II,Urban Planner,Energy Analyst
+NETWORK SECURITY-II,Mathematics Tutor,Software Developer
+COMPUTATIONAL FLUID DYNAMICS-II,HR Manager,Supply Chain Analyst
+DATA VISUALIAZATION,Supply Chain Analyst,Operations Manager
+MATHEMATICS FOR AI,Regulatory Affairs Specialist,Legal Researcher
+GENERATIVE AI AND IT'S APPLICATIONS,Chemical Engineer,Materials Scientist
+DATA VISUALIZATION AND STORY TELLING,Quality Assurance Engineer,Compliance Officer
+SIMPLE STATISTICS FOR UX PROJECTS,Robotics Engineer,Automation Specialist
+TRANSPORT PROCESSES,Bioinformatics Scientist,Biostatistician
+MODERN DIGITAL COMMUNICATION TECHNIQUESS,Business Analyst,Product Manager
+APPLIED ELECTROMAGNETICS FOR ENGINEERS,Compliance Officer,Regulatory Affairs Specialist
+CYBER SECURITY AND PRIVACY,Software Developer,Embedded Systems Engineer
+REINFORCEMENT LEARNING,Industrial Engineer,Production Manager
+SUSTAINABLE POWER GENERATION SYSTEMS,Research Scientist,Lab Technician
+RAPID MANUFACTURING,Biostatistician,Environmental Consultant
+INTRODUCTION TO COMPOSITES,Pharmaceutical Scientist,UX Designer
+ OPERATIONS AND SUPPLY CHAIN MANAGEMENT ,AI Specialist,Bioinformatics Scientist
+AUTOMATION IN PRODUCTION SYSTEMS AND MANAGEMENT,Operations Manager,Quality Assurance Engineer
+INTRODUCTION TO MACHINE LEARNING,Quality Assurance Engineer,Compliance Officer
+DEEP LEARNING ,Machine Learning Engineer,Software Engineer
+DATA MODELING AND FORECASTING WITH STRATA,Compliance Officer,Regulatory Affairs Specialist
+ENTREPRENEURSHIP DEVELOPMENT,Embedded Systems Engineer,Machine Learning Engineer
+Network Security,Machine Learning Engineer,Software Engineer
+Augmented reality and virtual reality,Web Developer,Data Engineer
+BIOMEDICAL TECHNOLOGY,Civil Engineer,Construction Manager
+INDIAN KNOWLEDGE SYSTEM,Project Manager,Database Administrator
+UNIVERSAL HUMAN VALUES,Automation Specialist,Web Developer
+DATA ANALYSIS,Digital Marketing Specialist,SEO Analyst
+SENSORS AND APPLICATIONS,Civil Engineer,Construction Manager
+ELEMENTS OF MECHANICAL ENGINEERING,Industrial Engineer,Production Manager
+AUTOCAD 2024,UX Designer,UI Developer
+PROBABILITY AND QUEUING THEORY,Civil Engineer,Construction Manager
+ENGINEERING ECONOMICS,Financial Analyst,Mathematics Tutor
+COSTING AND COST CONTROL,Research Scientist,Lab Technician
+RESEARCH METHODOLOGY,Automation Specialist,Web Developer
+OPERARTING SYSTEMS,Research Scientist,Lab Technician
+DATA VISUALIZATION,Web Developer,Data Engineer
+MODERN COMPUTER VISION,Research Scientist,Lab Technician
+HUMAN MACHINE INTERACTION,Quality Assurance Engineer,Compliance Officer
+SOCIAL SERVICE,Lab Technician,Systems Architect
+COMPUTATIONAL TECHNIQUES IN CHEMICAL ENGINEERING,Project Manager,Database Administrator
+INTRODUCTION TO CHEMICAL ENGINEERING,Data Engineer,DevOps Engineer
+INDUSTRIAL AUTOMATION AND CONTROL,HR Manager,Supply Chain Analyst
+BIOMEDICAL SIGNAL PROCESSING,Process Engineer,Industrial Engineer
+Business Intelligence and Analytics,Network Engineer,Technical Writer
+MODELLING AND ANALYTICS FOR SUPPLY CHAIN MANAGEMENT,Software Engineer,Research Scientist
+COMPUTATIONAL FLUID DYNAMICS FOR INCOMPRESSIBLE FLOWS,Machine Learning Engineer,Software Engineer
+DYNAMICS AND CONTROL OF MECHANICAL SYSTEMS,Financial Analyst,Mathematics Tutor
+Python Programming and Applications,AI Specialist,Bioinformatics Scientist
+Foundation of Cryptography,Civil Engineer,Construction Manager
+Reality Spectra,Software Engineer,Research Scientist
+FROM CAMPUS TO CORPORATE,Data Engineer,DevOps Engineer
+DEIGN OF HEAT EXCHANGE DEVICE,Software Developer,Embedded Systems Engineer
+FOUNDATION OF AWS CLOUD,Robotics Engineer,Automation Specialist
+"DESIGN, MANUFACTURING AND QUALITY CONTROL",Operations Manager,Quality Assurance Engineer
+GOLANG FOR CONCURRENT PROGRAMMING,Embedded Systems Engineer,Machine Learning Engineer
+DESIGN AND SIMULATION,Cloud Architect,AI Specialist
+DESIGN PATTERNS IN PROGRAMMING,Network Engineer,Technical Writer
+DATA INTELLIGENCE,Energy Analyst,Chemical Engineer
+DRAFTING AND MODELLING,Civil Engineer,Construction Manager
+GETTING STARTED WITH PYTHON,Urban Planner,Energy Analyst
+PROGRAMMING IN PYTHON,Compliance Officer,Regulatory Affairs Specialist
+USER INTERFACE DESIGN,Research Scientist,Lab Technician
+INDIAN KNOWLEDGE SYSTEMS,Mechanical Engineer,Electrical Engineer
+FUNDAMENTALS OF PROGRAMMING,Automation Specialist,Web Developer
+CRITICAL THINKING AND PROBLEM SOLVING,Civil Engineer,Construction Manager
+ARTIFICIAL NEURAL NETWORKS,Operations Manager,Quality Assurance Engineer
+IBM Full Stack Software Developer,Lab Technician,Systems Architect
+Meta Back-End Developer,UX Designer,UI Developer
+IBM Back-End Developer,Robotics Engineer,Automation Specialist
+Microsoft Power BI Data Analyst,Supply Chain Analyst,Operations Manager
+Tableau Business Intelligence Analyst,AI Specialist,Bioinformatics Scientist
+IBM Cybersecurity Analyst,Quantitative Analyst,Financial Analyst
+Microsoft Cybersecurity Analyst,Business Analyst,Product Manager
+Google Cybersecurity,Construction Manager,Urban Planner
+Google Data Analytics,Network Engineer,Technical Writer
+IBM Data Analyst,Financial Analyst,Mathematics Tutor
+IBM Data Engineering,Pharmaceutical Scientist,UX Designer
+Meta Database Engineer,Embedded Systems Engineer,Machine Learning Engineer
+IBM Data Science,Pharmaceutical Scientist,UX Designer
+Fractal Data Science,Construction Manager,Urban Planner
+IBM Data Warehouse Engineer,Web Developer,Data Engineer
+IBM DevOps and Software Engineering,Compliance Officer,Regulatory Affairs Specialist
+Google Digital Marketing and E-Commerce,Project Manager,Database Administrator
+Meta Front-End Developer,Technical Writer,Business Analyst
+IBM Front-End Developer,Operations Manager,Quality Assurance Engineer
+Google IT Support,Financial Analyst,Mathematics Tutor
+IBM Mainframe Developer,Automation Specialist,Web Developer
+Akamai Network Engineering,Full Stack Developer,Digital Marketing Specialist
+Google Project Management,Quality Assurance Engineer,Compliance Officer
+Salesforce Sales Development Representative,Cybersecurity Specialist,Network Engineer
+AWS Cloud Technology Consultant,Marketing Manager,HR Manager
+Google UX Design,Lab Technician,Systems Architect
+TRANSDUCERS AND SIGNAL CONDITIONING,Product Manager,Robotics Engineer
+VLSI Design Flow: RTL to GDS,Electrical Engineer,Civil Engineer
+APPLIED COMPUTATIONAL FLUID DYNAMICS,SEO Analyst,Marketing Manager
+MICROFLUIDICS AND NANOFLUIDICS,SEO Analyst,Marketing Manager
+ENERGY CONSERVATION AND WASTE HEAT RECOVERY,Digital Marketing Specialist,SEO Analyst
+WORK SYSTEM DESIGN,Business Analyst,Product Manager
+INDUSTRIAL POLLUTION CONTROL,Pharmaceutical Scientist,UX Designer
+REASONING AND APTITUDE DEVELOPMENT,Software Developer,Embedded Systems Engineer
+BASICS OF GAME DEVELOPMENT,UX Designer,UI Developer
+DATA ENGINEERING,Research Scientist,Lab Technician
+MAINFRAME TECHNOLOGIES,Systems Architect,Project Manager
+DESIGN THINKING - 7,Quantitative Analyst,Financial Analyst
+AI/ML CREDIT PROGRAM,Software Engineer,Research Scientist
+Coursera,Mathematics Tutor,Software Developer

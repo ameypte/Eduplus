@@ -1,122 +1,93 @@
-from flask import Flask, jsonify, request
-from flask_cors import CORS
-import pandas as pd
-import logging
+from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS  # Import the CORS module
+import json
+import google.generativeai as genai
 
 app = Flask(__name__)
+
+# Enable CORS for all routes
 CORS(app)
 
-logging.basicConfig(level=logging.INFO)
+# Configure the Gemini model
+genai.configure(api_key="AIzaSyDCMLuZmlYPXB6PIm0piJxku2Wq08RvlQE")
+generation_config = {
+    "temperature": 1,
+    "top_p": 0.95,
+    "top_k": 40,
+    "max_output_tokens": 8192,
+}
+model = genai.GenerativeModel(
+    model_name="gemini-1.5-flash",
+    generation_config=generation_config,
+)
 
-course_data = pd.read_csv(r'C:\CollegeStuff\Educampus Student reg\unique_course_program_year_mappings.csv')
-job_data = pd.read_csv(r'C:\CollegeStuff\Educampus Student reg\complete_courses_with_job_mappings.csv')
-new_course_data = pd.read_csv(r'C:\CollegeStuff\Educampus Student reg\sample_webpage\unique_mappings.csv')
+# Load the JSON file
+with open("./data/work_program_dict.json", "r") as f:
+    work_program_dict = json.load(f)
 
-course_data.columns = course_data.columns.str.lower()
-job_data.columns = job_data.columns.str.lower()
-new_course_data.columns = new_course_data.columns.str.lower()
+@app.route('/get_branches', methods=['GET'])
+def index():
+    branches = list(work_program_dict.keys())  # Get branch dropdown options
+    # Return the branches as a JSON response
+    return jsonify({'branches': branches})
 
-@app.route('/api/programs', methods=['GET'])
-def get_programs():
-    """Get a list of unique programs."""
-    programs = course_data['program'].unique().tolist()
-    return jsonify(programs)
-
-@app.route('/api/years', methods=['GET'])
+@app.route('/get_years', methods=['POST'])
 def get_years():
-    """Get a list of unique years."""
-    years = course_data['year'].unique().tolist()
-    return jsonify(years)
+    branch = request.json.get("branch")
+    if branch in work_program_dict:
+        years = list(work_program_dict[branch].keys())  # Get year options for the selected branch
+        return jsonify(years)
+    return jsonify([])
 
-@app.route('/api/jobs', methods=['GET'])
-def get_jobs():
-    """Get a list of unique jobs from job mappings."""
-    job_mapping_1 = job_data['job mapping 1'].unique().tolist()
-    job_mapping_2 = job_data['job mapping 2'].unique().tolist()
-    unique_jobs = list(set(job_mapping_1) | set(job_mapping_2)) 
-    return jsonify(unique_jobs)
+@app.route('/get_response', methods=['POST'])
+def get_response():
+    data = request.json  # Use request.json instead of request.form.get
+    branch = data.get('branch')
+    user_message = data.get('message')
 
-@app.route('/api/courses', methods=['GET'])
-def get_courses():
-    """Get courses based on selected program and year."""
-    program = request.args.get('program')
-    year = request.args.get('year')
+    if not user_message:
+        return jsonify({'error': 'Message is required'}), 400
 
-    if not program or not year:
-        return jsonify({"error": "Program and year parameters are required."}), 400
+    # Define the year order
+    year_order = ['FY', 'SY', 'TY', 'BTech']
+    courses_by_type = {'CP': {year: [] for year in year_order}, 'EL': {year: [] for year in year_order}}
 
-    filtered_courses = new_course_data[(new_course_data['program'] == program) & (new_course_data['year'] == year)]
+    # Populate the courses_by_type dictionary with "CP" and "EL" courses
+    if branch in work_program_dict:
+        for year, data in work_program_dict[branch].items():
+            if year in year_order:
+                courses_by_type['CP'][year] = data.get('CP', [])
+                courses_by_type['EL'][year] = data.get('EL', [])
+
+    # Step 1: Send the prompt to the Gemini model to get the requirements list
+    initial_prompt = f"User has typed in: '{user_message}'. What are the top 4 courses to achieve this? Provide the answer in a Python list format. Keep the requirements concise, to the point. Avoid sentences. Also, your output should only be the python list, nothing more, nothing less. Start your response with [ and end with ]. Each element in single quotes."
     
-    if filtered_courses.empty:
-        return jsonify({"error": "No courses found for the specified program and year."}), 404
+    # Start a chat session and send the prompt
+    chat_session = model.start_chat(history=[])
+    response = chat_session.send_message(initial_prompt)
+    requirements_list = response.text.strip()
+    print("Requirements List:", requirements_list)
 
-    courses = filtered_courses[['course name', 'sem']].drop_duplicates().to_dict(orient='records')
-    return jsonify(courses)
+    # Step 2: Find relevant courses for CP and EL
+    relevant_courses = {'CP': {}, 'EL': {}}
+    for category in ['CP', 'EL']:
+        relevant_courses[category] = {}
+        for year in year_order:
+            course_prompt = (
+                f"Given the following list of courses: {courses_by_type[category][year]}, "
+                f"and the requirements: {requirements_list}, provide a list of relevant courses "
+                f"for each requirement (mentioned in requirements list) from the provided course list only. "
+                f"Nothing out of this course list. Be very strict with your course choices. "
+                f"Only up to four very relevant courses from the list. Return the answer in Python list format. "
+                f"Nothing more, nothing less. Your response should start with a [, and end with a ], with elements in between. "
+                f"Each element should be in single quotes. Strictly only Python list. Not a list of lists. A single list of strings."
+            )
+            response = chat_session.send_message(course_prompt)
+            relevant_courses[category][year] = eval(response.text.strip())
+            print(f"Relevant {category} Courses for {year}:", relevant_courses[category][year])
 
-@app.route('/api/courses_by_job', methods=['GET'])
-def get_courses_by_job():
-    """Get courses corresponding to the selected job."""
-    job = request.args.get('job')
-
-    if not job:
-        return jsonify({"error": "Job parameter is required."}), 400
-
-    courses_job = job_data[(job_data['job mapping 1'] == job) | (job_data['job mapping 2'] == job)]
-
-    if courses_job.empty:
-        return jsonify({"error": "No courses found for the specified job."}), 404
-
-    courses = courses_job['course name'].unique().tolist()
-    return jsonify(courses)
-
-@app.route('/api/common_courses', methods=['GET'])
-def get_common_courses():
-    """Get common courses between selected program/year and job."""
-    program = request.args.get('program')
-    year = request.args.get('year')
-    job = request.args.get('job')
-
-    if not program or not year or not job:
-        return jsonify({"error": "Program, year, and job parameters are required."}), 400
-
-    program_courses = new_course_data[(new_course_data['program'] == program) & (new_course_data['year'] == year)][['course name', 'sem']]
-
-    courses_program_year = program_courses.set_index('course name')['sem'].to_dict()
-
-    courses_job = job_data[(job_data['job mapping 1'] == job) | (job_data['job mapping 2'] == job)]['course name'].unique().tolist()
-
-    common_courses = [course for course in courses_job if course in courses_program_year]
-
-    if not common_courses:
-        return jsonify({"message": "No common courses found."}), 404
-
-    common_courses_with_sem = [{"course name": course, "sem": courses_program_year[course]} for course in common_courses]
-
-    return jsonify(common_courses_with_sem)
-
-@app.route('/api/courses_by_program_and_job', methods=['GET'])
-def get_courses_by_program_and_job():
-    """Get course details (year, sem, course name) based on program and job."""
-    program = request.args.get('program')
-    job = request.args.get('job')
-
-    if not program or not job:
-        return jsonify({"error": "Program and job parameters are required."}), 400
-
-    job_courses = job_data[(job_data['job mapping 1'] == job) | (job_data['job mapping 2'] == job)]['course name'].unique()
-
-    program_courses = new_course_data[new_course_data['program'] == program]
-
-    result_courses = program_courses[program_courses['course name'].isin(job_courses)]
-
-    if result_courses.empty:
-        return jsonify({"error": "No courses found for the specified program and job."}), 404
-
-    result_courses_sorted = result_courses.sort_values(by=['course name', 'year', 'sem'])
-
-    result_data = result_courses_sorted[['year', 'sem', 'course name']].drop_duplicates().to_dict(orient='records')
-    
-    return jsonify(result_data)
+    # Return the relevant courses as a JSON response
+    return jsonify({'relevant_courses': relevant_courses})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
